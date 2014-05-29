@@ -1,14 +1,23 @@
 files = []
 files.push 'data/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.json'
 files.push 'data/fs132-005-clemens.json'
-#files.push 'data/SZ011.json'
-#files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
+files.push 'data/SZ011.json'
+files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
 
 class Chapter
   constructor: (@title, @obj) ->
   start: -> parseFloat(@obj['start_sec'])
 
 class Track
+  topics = {}
+ 
+  topic: (title) ->
+    topics[@title] = [] if not topics[@title]
+    topics[@title].push title
+
+  topic: ->
+    topics[@title]
+
   constructor: (@title, @activity, @length) ->
 
   total: (start = 0, end = @length) ->
