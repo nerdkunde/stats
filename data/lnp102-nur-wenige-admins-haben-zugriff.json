@@ -1,0 +1,2281 @@
+{
+    "status_string": "Done",
+    "is_multitrack": true,
+    "image": "https://auphonic.com/api/download/audio-upload/a8TP4UY2jHsPt7Kff3GQod/lnp-logo-600x600.jpg",
+    "creation_time": "2014-05-17T21:03:53.486Z",
+    "chapters": [
+        {
+            "title": "EuGH: Suchmaschinen und personenbezogene Daten",
+            "url": "",
+            "image": null,
+            "start_sec": 4196.245,
+            "start_output_sec": 4196.245,
+            "start": "01:09:56.245",
+            "start_output": "01:09:56.245"
+        },
+        {
+            "title": "Intro",
+            "url": "",
+            "image": null,
+            "start_sec": 0.0,
+            "start_output_sec": 0.0,
+            "start": "00:00:00",
+            "start_output": "00:00:00"
+        },
+        {
+            "title": "Bundestags-Ausschuss \"Digital Agenda\" zu IT-Sicherheit",
+            "url": "",
+            "image": null,
+            "start_sec": 6802.958,
+            "start_output_sec": 6802.958,
+            "start": "01:53:22.958",
+            "start_output": "01:53:22.958"
+        },
+        {
+            "title": "Prolog",
+            "url": "",
+            "image": null,
+            "start_sec": 32.708,
+            "start_output_sec": 32.708,
+            "start": "00:00:32.708",
+            "start_output": "00:00:32.708"
+        },
+        {
+            "title": "Epilog",
+            "url": "",
+            "image": null,
+            "start_sec": 7258.766,
+            "start_output_sec": 7258.766,
+            "start": "02:00:58.766",
+            "start_output": "02:00:58.766"
+        },
+        {
+            "title": "Netzneutralität in den USA",
+            "url": "",
+            "image": null,
+            "start_sec": 6562.729,
+            "start_output_sec": 6562.729,
+            "start": "01:49:22.729",
+            "start_output": "01:49:22.729"
+        },
+        {
+            "title": "re:publica Nachlese",
+            "url": "",
+            "image": null,
+            "start_sec": 2545.651,
+            "start_output_sec": 2545.651,
+            "start": "00:42:25.651",
+            "start_output": "00:42:25.651"
+        },
+        {
+            "title": "Netzpoliitk in der Schweiz",
+            "url": "",
+            "image": null,
+            "start_sec": 251.422,
+            "start_output_sec": 251.422,
+            "start": "00:04:11.422",
+            "start_output": "00:04:11.422"
+        },
+        {
+            "title": "Drei Bundesminister zur deutschen IT-Politik",
+            "url": "",
+            "image": null,
+            "start_sec": 5593.276,
+            "start_output_sec": 5593.276,
+            "start": "01:33:13.276",
+            "start_output": "01:33:13.276"
+        }
+    ],
+    "edit_page": "https://auphonic.com/engine/multitrack/edit/a8TP4UY2jHsPt7Kff3GQod",
+    "channels": 1,
+    "warning_message": "",
+    "samplerate": 48000,
+    "output_files": [
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj"
+            ],
+            "suffix": "",
+            "format": "mp3",
+            "checksum": "1febd02d060d82db89b17301bfdc1ec9",
+            "size_string": "97.3 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.mp3",
+            "ending": "mp3",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.mp3",
+            "bitrate": 112,
+            "mono_mixdown": true,
+            "size": 102067854
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj",
+                "aEubSVtDGh62Ngjc9jAqSH"
+            ],
+            "suffix": "",
+            "format": "psc",
+            "checksum": "883b2856ca10afb7bc0fded1aa6b44d1",
+            "size_string": "824.0 bytes",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.psc",
+            "ending": "psc",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.psc",
+            "bitrate": 0,
+            "mono_mixdown": false,
+            "size": 824
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj",
+                "aEubSVtDGh62Ngjc9jAqSH"
+            ],
+            "suffix": "",
+            "format": "flac",
+            "checksum": "6886ea9171a6b47f6afcf25378c1f811",
+            "size_string": "333.7 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.flac",
+            "ending": "flac",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.flac",
+            "bitrate": 0,
+            "mono_mixdown": false,
+            "size": 349927092
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj"
+            ],
+            "suffix": "",
+            "format": "vorbis",
+            "checksum": "22410d7705207bf65ea465b604c90cb7",
+            "size_string": "98.8 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.oga",
+            "ending": "oga",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.oga",
+            "bitrate": 96,
+            "mono_mixdown": true,
+            "size": 103548406
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj"
+            ],
+            "suffix": "",
+            "format": "opus",
+            "checksum": "6b948c8faff2345811aef6dbf47919ea",
+            "size_string": "65.7 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.opus",
+            "ending": "opus",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.opus",
+            "bitrate": 64,
+            "mono_mixdown": true,
+            "size": 68861691
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj"
+            ],
+            "suffix": "",
+            "format": "mp3",
+            "checksum": "f121076f5edff3489fa0810e8ae3a086",
+            "size_string": "95.2 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.mp3.zip",
+            "ending": "mp3",
+            "split_on_chapters": true,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.mp3.zip",
+            "bitrate": 112,
+            "mono_mixdown": true,
+            "size": 99862941
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj",
+                "aEubSVtDGh62Ngjc9jAqSH"
+            ],
+            "suffix": "",
+            "format": "chaps",
+            "checksum": "1cbfb71e8a9dee13a4c4c3529120bf16",
+            "size_string": "359.0 bytes",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.chapters.txt",
+            "ending": "chapters.txt",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.chapters.txt",
+            "bitrate": 0,
+            "mono_mixdown": false,
+            "size": 359
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj"
+            ],
+            "suffix": "",
+            "format": "aac",
+            "checksum": "5d4b23b64c0f07c7c3add6b222278292",
+            "size_string": "72.4 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.m4a",
+            "ending": "m4a",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.m4a",
+            "bitrate": 80,
+            "mono_mixdown": true,
+            "size": 75925931
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj",
+                "aEubSVtDGh62Ngjc9jAqSH"
+            ],
+            "suffix": "",
+            "format": "wavedat",
+            "checksum": "9ae64db2434b94644fe6c28e60b66033",
+            "size_string": "2.4 MB",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.waveform.dat",
+            "ending": "waveform.dat",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.waveform.dat",
+            "bitrate": 0,
+            "mono_mixdown": false,
+            "size": 2510564
+        },
+        {
+            "outgoing_services": [
+                "22suUzT3vGyRYGsLuzJ7uj",
+                "aEubSVtDGh62Ngjc9jAqSH"
+            ],
+            "suffix": "",
+            "format": "descr",
+            "checksum": "",
+            "size_string": "",
+            "download_url": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/lnp102-nur-wenige-admins-haben-zugriff.json",
+            "ending": "json",
+            "split_on_chapters": false,
+            "filename": "lnp102-nur-wenige-admins-haben-zugriff.json",
+            "bitrate": 0,
+            "mono_mixdown": false,
+            "size": 0
+        }
+    ],
+    "statistics": {
+        "tracks": [
+            {
+                "music_speech": "music",
+                "levels": {
+                    "lra": [
+                        6.38,
+                        "LU"
+                    ],
+                    "gain_mean": [
+                        14.15,
+                        "dB"
+                    ],
+                    "max_momentary": [
+                        -24.26,
+                        "LUFS"
+                    ],
+                    "gain_min": [
+                        14.22,
+                        "dB"
+                    ],
+                    "max_shortterm": [
+                        -26.94,
+                        "LUFS"
+                    ],
+                    "loudness": [
+                        -28.71,
+                        "LUFS"
+                    ],
+                    "gain_max": [
+                        14.22,
+                        "dB"
+                    ]
+                },
+                "identifier": "music"
+            },
+            {
+                "music_speech": "speech",
+                "levels": {
+                    "lra": [
+                        14.78,
+                        "LU"
+                    ],
+                    "gain_mean": [
+                        -25.91,
+                        "dB"
+                    ],
+                    "noise_level": [
+                        -76.28,
+                        "dB"
+                    ],
+                    "max_momentary": [
+                        -14.48,
+                        "LUFS"
+                    ],
+                    "signal_level": [
+                        -28.83,
+                        "dB"
+                    ],
+                    "gain_min": [
+                        -102.28,
+                        "dB"
+                    ],
+                    "snr": [
+                        47.45,
+                        "dB"
+                    ],
+                    "max_shortterm": [
+                        -16.92,
+                        "LUFS"
+                    ],
+                    "loudness": [
+                        -22.72,
+                        "LUFS"
+                    ],
+                    "gain_max": [
+                        9.67,
+                        "dB"
+                    ]
+                },
+                "identifier": "tim",
+                "activity": [
+                    [
+                        33.73,
+                        56.64
+                    ],
+                    [
+                        59.0,
+                        95.48
+                    ],
+                    [
+                        98.24,
+                        104.11
+                    ],
+                    [
+                        109.55,
+                        121.09
+                    ],
+                    [
+                        227.73,
+                        235.26
+                    ],
+                    [
+                        252.48,
+                        296.76
+                    ],
+                    [
+                        369.84,
+                        372.35
+                    ],
+                    [
+                        527.94,
+                        540.41
+                    ],
+                    [
+                        750.73,
+                        754.82
+                    ],
+                    [
+                        758.01,
+                        761.43
+                    ],
+                    [
+                        916.38,
+                        918.84
+                    ],
+                    [
+                        942.23,
+                        951.11
+                    ],
+                    [
+                        1040.55,
+                        1046.85
+                    ],
+                    [
+                        1049.87,
+                        1051.95
+                    ],
+                    [
+                        1154.42,
+                        1161.41
+                    ],
+                    [
+                        1163.09,
+                        1167.8
+                    ],
+                    [
+                        1170.15,
+                        1172.71
+                    ],
+                    [
+                        1259.46,
+                        1263.75
+                    ],
+                    [
+                        1362.51,
+                        1365.01
+                    ],
+                    [
+                        1384.43,
+                        1389.7
+                    ],
+                    [
+                        1449.12,
+                        1454.83
+                    ],
+                    [
+                        1898.17,
+                        1919.15
+                    ],
+                    [
+                        1921.05,
+                        1925.12
+                    ],
+                    [
+                        1927.42,
+                        1943.34
+                    ],
+                    [
+                        1953.0,
+                        1957.0
+                    ],
+                    [
+                        2050.01,
+                        2057.48
+                    ],
+                    [
+                        2065.21,
+                        2089.21
+                    ],
+                    [
+                        2107.73,
+                        2113.14
+                    ],
+                    [
+                        2118.08,
+                        2129.77
+                    ],
+                    [
+                        2237.53,
+                        2249.82
+                    ],
+                    [
+                        2289.26,
+                        2302.63
+                    ],
+                    [
+                        2449.05,
+                        2455.41
+                    ],
+                    [
+                        2463.79,
+                        2465.82
+                    ],
+                    [
+                        2467.61,
+                        2481.36
+                    ],
+                    [
+                        2482.96,
+                        2501.11
+                    ],
+                    [
+                        2503.0,
+                        2506.67
+                    ],
+                    [
+                        2524.6,
+                        2528.0
+                    ],
+                    [
+                        2552.11,
+                        2570.01
+                    ],
+                    [
+                        2575.6,
+                        2578.93
+                    ],
+                    [
+                        2590.53,
+                        2620.94
+                    ],
+                    [
+                        2622.76,
+                        2647.93
+                    ],
+                    [
+                        2758.96,
+                        2778.65
+                    ],
+                    [
+                        2781.74,
+                        2805.37
+                    ],
+                    [
+                        2806.92,
+                        2824.44
+                    ],
+                    [
+                        2826.42,
+                        2828.42
+                    ],
+                    [
+                        2830.44,
+                        2833.83
+                    ],
+                    [
+                        2837.14,
+                        2850.14
+                    ],
+                    [
+                        2851.89,
+                        2904.29
+                    ],
+                    [
+                        2907.24,
+                        2923.35
+                    ],
+                    [
+                        2925.0,
+                        2934.74
+                    ],
+                    [
+                        2940.32,
+                        2953.27
+                    ],
+                    [
+                        3026.78,
+                        3083.07
+                    ],
+                    [
+                        3084.67,
+                        3095.73
+                    ],
+                    [
+                        3098.83,
+                        3113.35
+                    ],
+                    [
+                        3115.31,
+                        3134.4
+                    ],
+                    [
+                        3136.12,
+                        3148.65
+                    ],
+                    [
+                        3151.78,
+                        3154.69
+                    ],
+                    [
+                        3156.34,
+                        3196.14
+                    ],
+                    [
+                        3198.31,
+                        3219.68
+                    ],
+                    [
+                        3221.52,
+                        3230.94
+                    ],
+                    [
+                        3237.14,
+                        3274.17
+                    ],
+                    [
+                        3327.26,
+                        3330.27
+                    ],
+                    [
+                        3341.42,
+                        3348.33
+                    ],
+                    [
+                        3545.55,
+                        3548.41
+                    ],
+                    [
+                        3558.43,
+                        3568.35
+                    ],
+                    [
+                        3571.58,
+                        3580.12
+                    ],
+                    [
+                        3584.93,
+                        3590.05
+                    ],
+                    [
+                        3595.44,
+                        3604.8
+                    ],
+                    [
+                        3606.54,
+                        3638.89
+                    ],
+                    [
+                        3640.6,
+                        3663.05
+                    ],
+                    [
+                        3665.17,
+                        3693.88
+                    ],
+                    [
+                        3695.66,
+                        3713.57
+                    ],
+                    [
+                        3716.87,
+                        3749.06
+                    ],
+                    [
+                        3751.23,
+                        3762.11
+                    ],
+                    [
+                        3766.06,
+                        3779.67
+                    ],
+                    [
+                        3892.62,
+                        3898.74
+                    ],
+                    [
+                        3936.35,
+                        3948.77
+                    ],
+                    [
+                        3950.31,
+                        3957.38
+                    ],
+                    [
+                        3971.89,
+                        3995.27
+                    ],
+                    [
+                        3997.54,
+                        4029.13
+                    ],
+                    [
+                        4032.8,
+                        4036.97
+                    ],
+                    [
+                        4073.52,
+                        4076.11
+                    ],
+                    [
+                        4153.12,
+                        4156.8
+                    ],
+                    [
+                        4193.78,
+                        4200.34
+                    ],
+                    [
+                        4208.97,
+                        4212.02
+                    ],
+                    [
+                        4222.89,
+                        4252.5
+                    ],
+                    [
+                        4254.14,
+                        4280.2
+                    ],
+                    [
+                        4322.08,
+                        4367.99
+                    ],
+                    [
+                        4369.64,
+                        4387.31
+                    ],
+                    [
+                        4390.38,
+                        4397.61
+                    ],
+                    [
+                        4399.31,
+                        4430.97
+                    ],
+                    [
+                        4432.99,
+                        4460.86
+                    ],
+                    [
+                        4462.92,
+                        4489.89
+                    ],
+                    [
+                        4492.63,
+                        4502.01
+                    ],
+                    [
+                        4503.57,
+                        4514.78
+                    ],
+                    [
+                        4516.62,
+                        4526.3
+                    ],
+                    [
+                        4528.58,
+                        4536.43
+                    ],
+                    [
+                        4654.1,
+                        4661.38
+                    ],
+                    [
+                        4741.16,
+                        4758.74
+                    ],
+                    [
+                        4912.54,
+                        4924.4
+                    ],
+                    [
+                        5322.8,
+                        5365.2
+                    ],
+                    [
+                        5391.51,
+                        5394.37
+                    ],
+                    [
+                        5396.44,
+                        5401.82
+                    ],
+                    [
+                        5572.98,
+                        5592.52
+                    ],
+                    [
+                        5619.87,
+                        5625.62
+                    ],
+                    [
+                        5705.46,
+                        5708.47
+                    ],
+                    [
+                        5729.4,
+                        5734.18
+                    ],
+                    [
+                        5740.75,
+                        5743.83
+                    ],
+                    [
+                        5747.53,
+                        5755.32
+                    ],
+                    [
+                        5791.63,
+                        5800.05
+                    ],
+                    [
+                        5805.89,
+                        5808.48
+                    ],
+                    [
+                        5813.93,
+                        5824.49
+                    ],
+                    [
+                        5830.28,
+                        5835.82
+                    ],
+                    [
+                        5851.59,
+                        5855.22
+                    ],
+                    [
+                        5911.75,
+                        5917.73
+                    ],
+                    [
+                        5923.32,
+                        5926.66
+                    ],
+                    [
+                        6016.02,
+                        6021.19
+                    ],
+                    [
+                        6023.1,
+                        6039.01
+                    ],
+                    [
+                        6040.61,
+                        6058.34
+                    ],
+                    [
+                        6068.69,
+                        6071.41
+                    ],
+                    [
+                        6075.15,
+                        6083.79
+                    ],
+                    [
+                        6085.7,
+                        6092.9
+                    ],
+                    [
+                        6096.52,
+                        6105.16
+                    ],
+                    [
+                        6108.36,
+                        6111.1
+                    ],
+                    [
+                        6188.99,
+                        6191.47
+                    ],
+                    [
+                        6334.09,
+                        6351.07
+                    ],
+                    [
+                        6360.38,
+                        6372.92
+                    ],
+                    [
+                        6376.25,
+                        6392.97
+                    ],
+                    [
+                        6414.15,
+                        6438.38
+                    ],
+                    [
+                        6441.01,
+                        6443.8
+                    ],
+                    [
+                        6445.84,
+                        6450.68
+                    ],
+                    [
+                        6454.12,
+                        6484.45
+                    ],
+                    [
+                        6498.1,
+                        6501.32
+                    ],
+                    [
+                        6503.97,
+                        6534.09
+                    ],
+                    [
+                        6536.5,
+                        6540.32
+                    ],
+                    [
+                        6544.54,
+                        6557.73
+                    ],
+                    [
+                        6562.17,
+                        6575.03
+                    ],
+                    [
+                        6625.28,
+                        6629.27
+                    ],
+                    [
+                        6704.91,
+                        6709.08
+                    ],
+                    [
+                        6717.53,
+                        6721.4
+                    ],
+                    [
+                        6817.57,
+                        6838.01
+                    ],
+                    [
+                        6840.56,
+                        6847.34
+                    ],
+                    [
+                        6849.54,
+                        6856.27
+                    ],
+                    [
+                        6860.0,
+                        6862.53
+                    ],
+                    [
+                        6908.28,
+                        6920.82
+                    ],
+                    [
+                        6932.29,
+                        6934.47
+                    ],
+                    [
+                        7036.84,
+                        7039.34
+                    ],
+                    [
+                        7130.56,
+                        7135.27
+                    ],
+                    [
+                        7144.89,
+                        7208.44
+                    ],
+                    [
+                        7214.55,
+                        7233.33
+                    ],
+                    [
+                        7234.99,
+                        7241.04
+                    ],
+                    [
+                        7242.94,
+                        7255.02
+                    ],
+                    [
+                        7261.49,
+                        7264.14
+                    ],
+                    [
+                        7268.93,
+                        7275.27
+                    ]
+                ]
+            },
+            {
+                "music_speech": "speech",
+                "levels": {
+                    "lra": [
+                        19.3,
+                        "LU"
+                    ],
+                    "gain_mean": [
+                        -11.43,
+                        "dB"
+                    ],
+                    "noise_level": [
+                        -72.92,
+                        "dB"
+                    ],
+                    "max_momentary": [
+                        -14.97,
+                        "LUFS"
+                    ],
+                    "signal_level": [
+                        -35.37,
+                        "dB"
+                    ],
+                    "gain_min": [
+                        -101.06,
+                        "dB"
+                    ],
+                    "snr": [
+                        37.55,
+                        "dB"
+                    ],
+                    "max_shortterm": [
+                        -18.06,
+                        "LUFS"
+                    ],
+                    "loudness": [
+                        -25.37,
+                        "LUFS"
+                    ],
+                    "gain_max": [
+                        12.58,
+                        "dB"
+                    ]
+                },
+                "identifier": "andre",
+                "activity": [
+                    [
+                        8.19,
+                        11.84
+                    ],
+                    [
+                        208.32,
+                        214.52
+                    ],
+                    [
+                        216.89,
+                        221.67
+                    ],
+                    [
+                        406.03,
+                        438.16
+                    ],
+                    [
+                        541.51,
+                        566.97
+                    ],
+                    [
+                        627.2,
+                        629.51
+                    ],
+                    [
+                        699.23,
+                        716.34
+                    ],
+                    [
+                        805.54,
+                        816.62
+                    ],
+                    [
+                        1025.22,
+                        1031.85
+                    ],
+                    [
+                        1047.15,
+                        1049.29
+                    ],
+                    [
+                        1301.39,
+                        1322.83
+                    ],
+                    [
+                        1488.54,
+                        1498.23
+                    ],
+                    [
+                        1500.58,
+                        1514.1
+                    ],
+                    [
+                        1581.41,
+                        1624.51
+                    ],
+                    [
+                        1628.24,
+                        1635.4
+                    ],
+                    [
+                        1661.4,
+                        1664.12
+                    ],
+                    [
+                        1678.87,
+                        1681.32
+                    ],
+                    [
+                        1721.79,
+                        1724.4
+                    ],
+                    [
+                        1784.43,
+                        1831.15
+                    ],
+                    [
+                        1834.66,
+                        1852.45
+                    ],
+                    [
+                        2203.01,
+                        2207.08
+                    ],
+                    [
+                        2224.46,
+                        2232.69
+                    ],
+                    [
+                        2354.33,
+                        2364.8
+                    ],
+                    [
+                        2507.81,
+                        2510.29
+                    ],
+                    [
+                        2514.4,
+                        2524.33
+                    ],
+                    [
+                        2527.73,
+                        2534.99
+                    ],
+                    [
+                        2570.06,
+                        2576.11
+                    ],
+                    [
+                        2579.35,
+                        2589.98
+                    ],
+                    [
+                        2648.85,
+                        2667.04
+                    ],
+                    [
+                        2669.16,
+                        2720.89
+                    ],
+                    [
+                        2725.44,
+                        2757.74
+                    ],
+                    [
+                        2937.55,
+                        2942.03
+                    ],
+                    [
+                        2965.0,
+                        2987.84
+                    ],
+                    [
+                        2989.84,
+                        3013.87
+                    ],
+                    [
+                        3015.71,
+                        3025.26
+                    ],
+                    [
+                        3148.75,
+                        3152.13
+                    ],
+                    [
+                        3281.14,
+                        3283.17
+                    ],
+                    [
+                        3291.33,
+                        3317.02
+                    ],
+                    [
+                        3318.59,
+                        3321.83
+                    ],
+                    [
+                        3339.79,
+                        3342.09
+                    ],
+                    [
+                        3344.66,
+                        3346.74
+                    ],
+                    [
+                        3348.61,
+                        3366.83
+                    ],
+                    [
+                        3368.8,
+                        3378.29
+                    ],
+                    [
+                        3380.99,
+                        3390.11
+                    ],
+                    [
+                        3392.08,
+                        3424.41
+                    ],
+                    [
+                        3426.69,
+                        3440.58
+                    ],
+                    [
+                        3444.58,
+                        3454.14
+                    ],
+                    [
+                        3456.33,
+                        3478.4
+                    ],
+                    [
+                        3480.16,
+                        3482.88
+                    ],
+                    [
+                        3484.54,
+                        3494.65
+                    ],
+                    [
+                        3496.17,
+                        3543.92
+                    ],
+                    [
+                        3552.25,
+                        3557.35
+                    ],
+                    [
+                        3569.19,
+                        3572.12
+                    ],
+                    [
+                        3580.02,
+                        3584.52
+                    ],
+                    [
+                        3591.62,
+                        3594.12
+                    ],
+                    [
+                        3638.62,
+                        3640.75
+                    ],
+                    [
+                        3762.58,
+                        3769.02
+                    ],
+                    [
+                        3780.39,
+                        3893.66
+                    ],
+                    [
+                        3902.01,
+                        3934.95
+                    ],
+                    [
+                        3958.21,
+                        3969.63
+                    ],
+                    [
+                        4038.02,
+                        4042.83
+                    ],
+                    [
+                        4044.85,
+                        4074.42
+                    ],
+                    [
+                        4076.25,
+                        4132.54
+                    ],
+                    [
+                        4135.45,
+                        4153.45
+                    ],
+                    [
+                        4157.0,
+                        4176.58
+                    ],
+                    [
+                        4178.44,
+                        4184.29
+                    ],
+                    [
+                        4186.18,
+                        4190.83
+                    ],
+                    [
+                        4220.04,
+                        4222.79
+                    ],
+                    [
+                        4280.97,
+                        4304.75
+                    ],
+                    [
+                        4306.68,
+                        4321.34
+                    ],
+                    [
+                        4540.67,
+                        4547.22
+                    ],
+                    [
+                        4549.15,
+                        4553.59
+                    ],
+                    [
+                        4556.09,
+                        4559.06
+                    ],
+                    [
+                        4561.24,
+                        4592.95
+                    ],
+                    [
+                        4594.56,
+                        4618.97
+                    ],
+                    [
+                        4626.92,
+                        4652.84
+                    ],
+                    [
+                        4661.25,
+                        4669.82
+                    ],
+                    [
+                        4671.57,
+                        4695.14
+                    ],
+                    [
+                        4697.73,
+                        4712.42
+                    ],
+                    [
+                        4714.24,
+                        4739.09
+                    ],
+                    [
+                        4758.62,
+                        4821.7
+                    ],
+                    [
+                        4823.41,
+                        4839.03
+                    ],
+                    [
+                        4843.61,
+                        4869.56
+                    ],
+                    [
+                        4872.52,
+                        4912.85
+                    ],
+                    [
+                        4924.87,
+                        4939.24
+                    ],
+                    [
+                        4941.53,
+                        4966.93
+                    ],
+                    [
+                        4969.5,
+                        4982.07
+                    ],
+                    [
+                        4983.59,
+                        4986.22
+                    ],
+                    [
+                        4988.0,
+                        4995.83
+                    ],
+                    [
+                        4998.59,
+                        5009.62
+                    ],
+                    [
+                        5012.27,
+                        5093.95
+                    ],
+                    [
+                        5095.46,
+                        5122.43
+                    ],
+                    [
+                        5124.59,
+                        5135.35
+                    ],
+                    [
+                        5137.11,
+                        5160.3
+                    ],
+                    [
+                        5162.15,
+                        5172.06
+                    ],
+                    [
+                        5179.07,
+                        5240.93
+                    ],
+                    [
+                        5244.72,
+                        5267.86
+                    ],
+                    [
+                        5270.3,
+                        5273.91
+                    ],
+                    [
+                        5275.74,
+                        5319.81
+                    ],
+                    [
+                        5370.68,
+                        5386.89
+                    ],
+                    [
+                        5403.05,
+                        5474.75
+                    ],
+                    [
+                        5477.8,
+                        5505.28
+                    ],
+                    [
+                        5507.15,
+                        5522.22
+                    ],
+                    [
+                        5524.84,
+                        5560.99
+                    ],
+                    [
+                        5594.35,
+                        5602.08
+                    ],
+                    [
+                        5604.66,
+                        5619.73
+                    ],
+                    [
+                        5626.23,
+                        5632.0
+                    ],
+                    [
+                        5634.2,
+                        5655.51
+                    ],
+                    [
+                        5658.45,
+                        5674.43
+                    ],
+                    [
+                        5676.49,
+                        5690.5
+                    ],
+                    [
+                        5696.35,
+                        5706.06
+                    ],
+                    [
+                        5711.06,
+                        5728.78
+                    ],
+                    [
+                        5734.66,
+                        5740.71
+                    ],
+                    [
+                        5744.66,
+                        5750.26
+                    ],
+                    [
+                        5755.18,
+                        5757.78
+                    ],
+                    [
+                        5761.35,
+                        5779.81
+                    ],
+                    [
+                        5782.94,
+                        5792.16
+                    ],
+                    [
+                        5795.71,
+                        5805.74
+                    ],
+                    [
+                        5809.17,
+                        5812.09
+                    ],
+                    [
+                        5836.02,
+                        5846.98
+                    ],
+                    [
+                        5856.52,
+                        5885.11
+                    ],
+                    [
+                        5887.41,
+                        5897.86
+                    ],
+                    [
+                        5899.39,
+                        5910.69
+                    ],
+                    [
+                        5919.48,
+                        5922.0
+                    ],
+                    [
+                        5924.92,
+                        5929.51
+                    ],
+                    [
+                        5931.15,
+                        5936.52
+                    ],
+                    [
+                        5938.48,
+                        5954.13
+                    ],
+                    [
+                        5957.62,
+                        5963.31
+                    ],
+                    [
+                        5966.27,
+                        5984.49
+                    ],
+                    [
+                        5986.12,
+                        5990.82
+                    ],
+                    [
+                        5992.8,
+                        6014.07
+                    ],
+                    [
+                        6058.79,
+                        6067.43
+                    ],
+                    [
+                        6069.68,
+                        6076.0
+                    ],
+                    [
+                        6111.48,
+                        6118.67
+                    ],
+                    [
+                        6120.51,
+                        6185.26
+                    ],
+                    [
+                        6193.91,
+                        6274.97
+                    ],
+                    [
+                        6276.62,
+                        6305.4
+                    ],
+                    [
+                        6314.43,
+                        6318.6
+                    ],
+                    [
+                        6320.28,
+                        6334.3
+                    ],
+                    [
+                        6353.22,
+                        6359.56
+                    ],
+                    [
+                        6394.72,
+                        6407.1
+                    ],
+                    [
+                        6409.85,
+                        6412.08
+                    ],
+                    [
+                        6486.46,
+                        6493.67
+                    ],
+                    [
+                        6495.72,
+                        6498.63
+                    ],
+                    [
+                        6501.58,
+                        6503.99
+                    ],
+                    [
+                        6581.66,
+                        6590.05
+                    ],
+                    [
+                        6592.6,
+                        6598.92
+                    ],
+                    [
+                        6600.54,
+                        6613.47
+                    ],
+                    [
+                        6617.05,
+                        6624.81
+                    ],
+                    [
+                        6630.37,
+                        6638.27
+                    ],
+                    [
+                        6640.74,
+                        6645.54
+                    ],
+                    [
+                        6648.34,
+                        6670.49
+                    ],
+                    [
+                        6672.01,
+                        6680.08
+                    ],
+                    [
+                        6681.77,
+                        6703.84
+                    ],
+                    [
+                        6709.95,
+                        6713.34
+                    ],
+                    [
+                        6723.65,
+                        6742.28
+                    ],
+                    [
+                        6744.09,
+                        6775.95
+                    ],
+                    [
+                        6777.45,
+                        6780.92
+                    ],
+                    [
+                        6783.05,
+                        6788.51
+                    ],
+                    [
+                        6791.4,
+                        6799.01
+                    ],
+                    [
+                        6801.59,
+                        6815.4
+                    ],
+                    [
+                        6837.56,
+                        6840.33
+                    ],
+                    [
+                        6863.49,
+                        6890.94
+                    ],
+                    [
+                        6892.81,
+                        6908.33
+                    ],
+                    [
+                        6921.61,
+                        6977.91
+                    ],
+                    [
+                        6980.3,
+                        6986.52
+                    ],
+                    [
+                        6989.05,
+                        7022.57
+                    ],
+                    [
+                        7024.75,
+                        7033.59
+                    ],
+                    [
+                        7039.73,
+                        7104.38
+                    ],
+                    [
+                        7107.45,
+                        7128.2
+                    ],
+                    [
+                        7134.89,
+                        7145.04
+                    ],
+                    [
+                        7208.9,
+                        7211.62
+                    ],
+                    [
+                        7264.76,
+                        7267.22
+                    ]
+                ]
+            },
+            {
+                "noise_hum_reduction": [
+                    {
+                        "dehum": false,
+                        "denoise": -9,
+                        "start_sec": 0.0,
+                        "stop": "02:01:26.835",
+                        "stop_sec": 7286.835,
+                        "start": "00:00:00.000"
+                    }
+                ],
+                "music_speech": "speech",
+                "levels": {
+                    "lra": [
+                        9.49,
+                        "LU"
+                    ],
+                    "gain_mean": [
+                        -43.99,
+                        "dB"
+                    ],
+                    "noise_level": [
+                        -74.64,
+                        "dB"
+                    ],
+                    "max_momentary": [
+                        -16.75,
+                        "LUFS"
+                    ],
+                    "signal_level": [
+                        -42.22,
+                        "dB"
+                    ],
+                    "gain_min": [
+                        -99.45,
+                        "dB"
+                    ],
+                    "snr": [
+                        32.42,
+                        "dB"
+                    ],
+                    "max_shortterm": [
+                        -23.38,
+                        "LUFS"
+                    ],
+                    "loudness": [
+                        -32.21,
+                        "LUFS"
+                    ],
+                    "gain_max": [
+                        18.81,
+                        "dB"
+                    ]
+                },
+                "identifier": "kire",
+                "activity": [
+                    [
+                        122.16,
+                        148.82
+                    ],
+                    [
+                        151.6,
+                        180.06
+                    ],
+                    [
+                        183.82,
+                        187.29
+                    ],
+                    [
+                        190.28,
+                        198.44
+                    ],
+                    [
+                        200.23,
+                        206.3
+                    ],
+                    [
+                        236.29,
+                        249.94
+                    ],
+                    [
+                        298.66,
+                        331.34
+                    ],
+                    [
+                        333.42,
+                        348.24
+                    ],
+                    [
+                        350.18,
+                        368.37
+                    ],
+                    [
+                        374.77,
+                        394.74
+                    ],
+                    [
+                        396.72,
+                        404.89
+                    ],
+                    [
+                        439.11,
+                        471.05
+                    ],
+                    [
+                        473.18,
+                        490.72
+                    ],
+                    [
+                        492.5,
+                        511.92
+                    ],
+                    [
+                        514.21,
+                        526.24
+                    ],
+                    [
+                        568.57,
+                        600.27
+                    ],
+                    [
+                        601.86,
+                        625.82
+                    ],
+                    [
+                        630.3,
+                        638.42
+                    ],
+                    [
+                        640.33,
+                        656.43
+                    ],
+                    [
+                        658.7,
+                        670.4
+                    ],
+                    [
+                        672.53,
+                        693.52
+                    ],
+                    [
+                        719.11,
+                        737.52
+                    ],
+                    [
+                        739.26,
+                        744.67
+                    ],
+                    [
+                        761.3,
+                        777.11
+                    ],
+                    [
+                        779.72,
+                        784.91
+                    ],
+                    [
+                        786.46,
+                        802.46
+                    ],
+                    [
+                        817.66,
+                        831.64
+                    ],
+                    [
+                        833.96,
+                        886.19
+                    ],
+                    [
+                        889.46,
+                        914.94
+                    ],
+                    [
+                        919.7,
+                        941.02
+                    ],
+                    [
+                        956.62,
+                        969.07
+                    ],
+                    [
+                        970.58,
+                        1000.21
+                    ],
+                    [
+                        1002.36,
+                        1023.97
+                    ],
+                    [
+                        1032.77,
+                        1038.84
+                    ],
+                    [
+                        1054.64,
+                        1062.79
+                    ],
+                    [
+                        1065.18,
+                        1081.59
+                    ],
+                    [
+                        1084.12,
+                        1089.15
+                    ],
+                    [
+                        1091.27,
+                        1117.45
+                    ],
+                    [
+                        1121.28,
+                        1152.47
+                    ],
+                    [
+                        1173.95,
+                        1180.98
+                    ],
+                    [
+                        1183.46,
+                        1206.78
+                    ],
+                    [
+                        1208.95,
+                        1225.56
+                    ],
+                    [
+                        1227.07,
+                        1235.24
+                    ],
+                    [
+                        1239.75,
+                        1253.06
+                    ],
+                    [
+                        1264.45,
+                        1274.26
+                    ],
+                    [
+                        1276.22,
+                        1294.54
+                    ],
+                    [
+                        1296.18,
+                        1300.05
+                    ],
+                    [
+                        1323.27,
+                        1360.97
+                    ],
+                    [
+                        1366.21,
+                        1371.03
+                    ],
+                    [
+                        1372.94,
+                        1383.56
+                    ],
+                    [
+                        1390.36,
+                        1394.37
+                    ],
+                    [
+                        1411.58,
+                        1448.43
+                    ],
+                    [
+                        1456.17,
+                        1464.55
+                    ],
+                    [
+                        1473.18,
+                        1486.95
+                    ],
+                    [
+                        1515.21,
+                        1528.43
+                    ],
+                    [
+                        1530.58,
+                        1535.97
+                    ],
+                    [
+                        1538.26,
+                        1570.43
+                    ],
+                    [
+                        1572.37,
+                        1580.8
+                    ],
+                    [
+                        1636.68,
+                        1660.36
+                    ],
+                    [
+                        1664.88,
+                        1677.97
+                    ],
+                    [
+                        1682.62,
+                        1721.75
+                    ],
+                    [
+                        1724.94,
+                        1743.75
+                    ],
+                    [
+                        1746.55,
+                        1776.18
+                    ],
+                    [
+                        1853.47,
+                        1863.19
+                    ],
+                    [
+                        1865.25,
+                        1873.47
+                    ],
+                    [
+                        1876.01,
+                        1885.93
+                    ],
+                    [
+                        1943.92,
+                        1952.82
+                    ],
+                    [
+                        1955.94,
+                        1970.76
+                    ],
+                    [
+                        1972.63,
+                        1975.97
+                    ],
+                    [
+                        1978.21,
+                        1980.95
+                    ],
+                    [
+                        1983.37,
+                        2005.61
+                    ],
+                    [
+                        2007.68,
+                        2016.54
+                    ],
+                    [
+                        2019.36,
+                        2029.65
+                    ],
+                    [
+                        2031.58,
+                        2047.44
+                    ],
+                    [
+                        2060.33,
+                        2062.77
+                    ],
+                    [
+                        2089.3,
+                        2105.89
+                    ],
+                    [
+                        2114.58,
+                        2117.69
+                    ],
+                    [
+                        2132.37,
+                        2138.55
+                    ],
+                    [
+                        2140.39,
+                        2159.88
+                    ],
+                    [
+                        2162.27,
+                        2192.82
+                    ],
+                    [
+                        2195.65,
+                        2199.49
+                    ],
+                    [
+                        2207.53,
+                        2212.36
+                    ],
+                    [
+                        2214.17,
+                        2224.0
+                    ],
+                    [
+                        2250.77,
+                        2287.69
+                    ],
+                    [
+                        2304.39,
+                        2311.67
+                    ],
+                    [
+                        2313.45,
+                        2318.83
+                    ],
+                    [
+                        2328.91,
+                        2353.02
+                    ],
+                    [
+                        2365.07,
+                        2379.06
+                    ],
+                    [
+                        2381.69,
+                        2396.55
+                    ],
+                    [
+                        2398.81,
+                        2415.37
+                    ],
+                    [
+                        2417.01,
+                        2433.99
+                    ],
+                    [
+                        2435.8,
+                        2444.07
+                    ],
+                    [
+                        2456.18,
+                        2462.38
+                    ]
+                ]
+            }
+        ],
+        "master": {
+            "levels": {
+                "lra": [
+                    4.41,
+                    "LU"
+                ],
+                "max_momentary": [
+                    -9.12,
+                    "LUFS"
+                ],
+                "peak": [
+                    -1.0,
+                    "dBTP"
+                ],
+                "max_shortterm": [
+                    -11.22,
+                    "LUFS"
+                ],
+                "loudness": [
+                    -16.0,
+                    "LUFS"
+                ]
+            }
+        }
+    },
+    "uuid": "a8TP4UY2jHsPt7Kff3GQod",
+    "service": null,
+    "warning_status": null,
+    "has_video": false,
+    "error_status": null,
+    "thumbnail": "https://auphonic.com/api/download/audio-upload/a8TP4UY2jHsPt7Kff3GQod/thumbnail.jpg",
+    "metadata": {
+        "album": "Logbuch:Netzpolitik",
+        "publisher": "Metaebene Personal Media",
+        "subtitle": "Netzpolitik in der Schweiz — re:publica Nachlese — EuGH und Google — Netzneutralität in den USA — Digitale Agenda zu IT-Sicherheit",
+        "license": "Creative Commons Attribution 3.0 Germany",
+        "artist": "Metaebene Personal Media",
+        "track": "",
+        "title": "LNP102 Nur wenige Admins haben Zugriff",
+        "summary": "Nachdem sich der Staub der re:publica gelegt hat kommen wir wieder zu einer Sendung. Linus war leider verhindert, dafür springt Andre Meister wieder ein. Außerdem begrüßen wir mit Kire unseren ersten Gast aus der Schweiz, der uns in dieser Ausgabe umfangreich über den Stand der netzpolitischen Bewegung und aktuell drängenden Themen berichtet. Wir blicken dann noch ein auf die netzpolitisch relevanten Vorträge der re:publica und analysieren die umstrittene Entscheidung des EuGH zu den Rechtspflichten von Google (und damit auch anderen nicht-europäischen Internetfirmen).",
+        "append_chapters": false,
+        "url": "http://metaebene.me/",
+        "license_url": "http://creativecommons.org/licenses/by/3.0/de/",
+        "location": {
+            "latitude": null,
+            "longitude": null
+        },
+        "year": "2014",
+        "genre": "Podcast",
+        "tags": [
+            "logbuch netzpolitik",
+            "metaebene",
+            "linus neumann",
+            "tim pritlove",
+            "podcast"
+        ]
+    },
+    "status": 3,
+    "input_file": "lnp102-music_1.flac",
+    "webhook": null,
+    "status_page": "https://auphonic.com/engine/status/a8TP4UY2jHsPt7Kff3GQod",
+    "length_timestring": "02:01:26.835",
+    "multi_input_files": [
+        {
+            "input_channels": 1,
+            "service": null,
+            "input_file": null,
+            "input_samplerate": 48000,
+            "input_bitrate": 0.0,
+            "input_filetype": "flac",
+            "type": "multichannel",
+            "input_length": 7286.83507936508
+        },
+        {
+            "input_channels": 1,
+            "service": null,
+            "input_file": null,
+            "input_samplerate": 48000,
+            "input_bitrate": 0.0,
+            "input_filetype": "flac",
+            "type": "multichannel",
+            "input_length": 7286.83507936508
+        },
+        {
+            "input_channels": 1,
+            "service": null,
+            "input_file": null,
+            "input_samplerate": 48000,
+            "input_bitrate": 0.0,
+            "input_filetype": "flac",
+            "type": "multichannel",
+            "input_length": 7286.83507936508
+        },
+        {
+            "input_channels": 1,
+            "service": null,
+            "input_file": null,
+            "input_samplerate": 48000,
+            "input_bitrate": 0.0,
+            "input_filetype": "flac",
+            "type": "multichannel",
+            "input_length": 7286.83507936508
+        }
+    ],
+    "bitrate": 0.0,
+    "output_basename": "lnp102-nur-wenige-admins-haben-zugriff",
+    "outgoing_services": [
+        {
+            "outgoing": true,
+            "display_name": "Internet Archive",
+            "transfer_success": false,
+            "error_message": "",
+            "bucket": null,
+            "result_urls": [],
+            "result_page": null,
+            "incoming": false,
+            "type": "archiveorg",
+            "uuid": "aEubSVtDGh62Ngjc9jAqSH"
+        },
+        {
+            "outgoing": true,
+            "incoming": true,
+            "uuid": "22suUzT3vGyRYGsLuzJ7uj",
+            "error_message": "",
+            "base_url": "http://meta.metaebene.me/media/lnp",
+            "host": "meta.metaebene.me",
+            "result_urls": [],
+            "path": "/usr/local/www/media.metaebene.me/media/lnp/",
+            "result_page": null,
+            "display_name": "ME LNP",
+            "type": "sftp",
+            "port": 22,
+            "transfer_success": false
+        }
+    ],
+    "change_time": "2014-05-17T22:45:46.642Z",
+    "error_message": "",
+    "waveform_image": "https://auphonic.com/api/download/audio-result/a8TP4UY2jHsPt7Kff3GQod/waveform.png",
+    "length": 7286.83507936508,
+    "algorithms": {
+        "normloudness": true,
+        "loudnesstarget": -16,
+        "denoise": false,
+        "denoiseamount": 0,
+        "hipfilter": false,
+        "leveler": true
+    },
+    "start_allowed": false,
+    "change_allowed": true,
+    "format": "flac"
+}
