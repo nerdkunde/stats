@@ -4,19 +4,18 @@ files.push 'data/fs132-005-clemens.json'
 files.push 'data/SZ011.json'
 files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
 
+topics = {}
+
 class Chapter
   constructor: (@title, @obj) ->
   start: -> parseFloat(@obj['start_sec'])
 
 class Track
-  topics = {}
- 
-  topic: (title) ->
-    topics[@title] = [] if not topics[@title]
-    topics[@title].push title
+  TOPICS: {}
 
-  topic: ->
-    topics[@title]
+  topic: (head) ->
+    this.TOPICS[@title] = [] if !this.TOPICS[@title]
+    this.TOPICS[@title].push head
 
   constructor: (@title, @activity, @length) ->
 
@@ -133,12 +132,14 @@ track_topic = (file) ->
         t = track if track.percent(file.chapters[i].start(),
           file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
             file.chapters[i+1].start())
+      t.topic file.chapters[i].title
       hosts.push
         'chapter': file.chapters[i].title
         'master': t.title
-
+    
   legendTracks(file.tracks, legend)
   for track in file.tracks
+    console.log Track::TOPICS[track.title]
     legendTopics(hosts, track.title)
 
 track_chapter = (file) ->

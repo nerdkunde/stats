@@ -9,9 +9,21 @@ useGradients = nativeCanvasSupport
 animate = !(iStuff || !nativeCanvasSupport)
 
 buttons = [
-  { 'title': 'Sprecher nach Kapiteln', 'method': 'track_chapter' }
-  { 'title': 'Anteile', 'method': 'track_topic' }
-  { 'title': 'Wortmeldungen', 'method': 'track_commitments' }
+  {
+    'title': 'Sprecher nach Kapiteln'
+    'desc': 'Aktivität nach Kapiteln'
+    'method': 'track_chapter'
+  },
+  {
+    'title': 'Anteile'
+    'desc': 'Anteiler im Gesamtüberblick'
+    'method': 'track_topic'
+  },
+  {
+    'title': 'Wortmeldungen'
+    'desc': 'Wortmeldungen/Aktivität über die Zeit'
+    'method': 'track_commitments'
+  }
 ]
 
 legendChapters = (data) ->
@@ -73,6 +85,11 @@ draw_bar = (json, o = 'horizontal') ->
       left: 5
       right: 5
       bottom: 5
+     Label:
+       type: 'Native'
+       size: 13
+       family: 'Arial'
+       color: 'white'
     labelOffset: 5
     type:'stacked'
     showAggregates: false
@@ -89,18 +106,26 @@ menu_item = (title, url) ->
     $('#infovis').empty()
     $('#legend').empty()
     $('#options').empty()
+    $('#description').empty()
 
     file = stats $(this).attr('id')
+
     for button in buttons
       item = $ '<button></button>'
       item.text(button['title'])
       item.attr('value', button['method'])
+      item.attr('title', button['desc'])
       item.click ->
         $('#infovis').empty()
         $('#legend').empty()
+        $('#description').empty()
         $('#container').css('display', 'block')
+        $('#description').css('display', 'block')
+        $('#description').append $("<p>#{$(this).attr('title')}</p>")
         window[$(this).attr('value')](file)
+     
       $('#options').append item
+
   p = $ '<p></p>'
   p.append link
   $('#menu').append p
