@@ -1,12 +1,10 @@
-ua = navigator.userAgent
-iStuff = ua.match(/iPhone/i) || ua.match(/iPad/i)
-typeOfCanvas = typeof HTMLCanvasElement
-nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function')
-textSupport = nativeCanvasSupport && (typeof document.createElement('canvas').getContext('2d').fillText == 'function')
-labelType = (!nativeCanvasSupport || (textSupport && !iStuff))? 'Native' : 'HTML'
-nativeTextSupport = labelType == 'Native'
-useGradients = nativeCanvasSupport
-animate = !(iStuff || !nativeCanvasSupport)
+#typeOfCanvas = typeof HTMLCanvasElement
+#nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function')
+#textSupport = nativeCanvasSupport && (typeof document.createElement('canvas').getContext('2d').fillText == 'function')
+#labelType = (!nativeCanvasSupport || (textSupport && !iStuff))? 'Native' : 'HTML'
+#nativeTextSupport = labelType == 'Native'
+#useGradients = nativeCanvasSupport
+#animate = !(iStuff || !nativeCanvasSupport)
 
 buttons = [
   {
@@ -38,7 +36,7 @@ legendChapters = (data) ->
 
 legendTracks = (data, legend) ->
   table = $ '<table></table>'
-  for i in [0..data.length-1]
+  for i in [1..data.length-1]
     col = $ '<tr></tr>'
     col.append $ "<th><div class='query-color'
       style='background-color:#{legend[data[i].title]};'></div></th>"

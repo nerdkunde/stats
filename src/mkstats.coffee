@@ -46,6 +46,7 @@ class File
       chapters.push new Chapter 'End',
         'start_sec': json['length']
 
+      tracks.push new Track('Empty', [], 0)
       $.each json['statistics']['tracks'], (index, value) ->
         if value['activity']
           tracks.push new Track(value['identifier'],
@@ -72,17 +73,21 @@ track_commitments = (file) ->
   quarter4 = []
 
   for track in file.tracks
-    labels.push track.title
-    quarter1.push track.count(0, track.length/4)
+    if track.length > 0
+      labels.push track.title
+      quarter1.push track.count(0, track.length/4)
 
   for track in file.tracks
-    quarter2.push track.count(track.length/4, track.length/3)
+    if track.length > 0
+      quarter2.push track.count(track.length/4, track.length/3)
 
   for track in file.tracks
-    quarter3.push track.count(track.length/3, track.length/2)
+    if track.length > 0
+      quarter3.push track.count(track.length/3, track.length/2)
 
   for track in file.tracks
-    quarter4.push track.count(track.length/2, track.length)
+    if track.length > 0
+      quarter4.push track.count(track.length/2, track.length)
 
   data =
     'label': labels
@@ -115,8 +120,9 @@ track_topic = (file) ->
   hosts = []
 
   for track in file.tracks
-    values.push track.percent(0)
-    labels.push track.title
+    if track.length > 0
+      values.push track.percent(0)
+      labels.push track.title
 
   data =
     'label': labels
@@ -129,18 +135,19 @@ track_topic = (file) ->
 
   for i in [0..file.chapters.length-2]
     for track in file.tracks
-        t = track if track.percent(file.chapters[i].start(),
-          file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
-            file.chapters[i+1].start())
+      t = track if track.percent(file.chapters[i].start(),
+        file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
+        file.chapters[i+1].start())
       t.topic file.chapters[i].title
-      hosts.push
-        'chapter': file.chapters[i].title
-        'master': t.title
+    hosts.push
+      'chapter': file.chapters[i].title
+      'master': t.title
     
   legendTracks(file.tracks, legend)
   for track in file.tracks
-    console.log Track::TOPICS[track.title]
-    legendTopics(hosts, track.title)
+    if track.length > 0
+      console.log Track::TOPICS[track.title]
+      legendTopics(hosts, track.title)
 
 track_chapter = (file) ->
     t = file.tracks[0]
@@ -150,16 +157,18 @@ track_chapter = (file) ->
     for i in [0..file.chapters.length-2]
       v = []
       for track in file.tracks
-        t = track if track.percent(file.chapters[i].start(),
-            file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
-              file.chapters[i+1].start())
-        v.push track.percent(file.chapters[i].start(), file.chapters[i+1].start())
-      values.push
-        'label': i
-        'values': v
+        if track.length > 0
+          t = track if track.percent(file.chapters[i].start(),
+              file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
+                file.chapters[i+1].start())
+          v.push track.percent(file.chapters[i].start(), file.chapters[i+1].start())
+        values.push
+          'label': i
+          'values': v
 
     for track in file.tracks
-      labels.push track.title
+      if track.length > 0
+        labels.push track.title
 
     data =
       'label': labels
