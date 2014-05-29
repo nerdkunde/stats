@@ -17,14 +17,16 @@ html, body {
   margin: auto;
 }
 
+td {
+  vertical-align: top;
+}
+
 #top {
-  background-color: #000000;
   padding: 5px;
 }
 
 #top h1 {
-  color: #99cc33;
-  font-size: 1.0em;
+  font-size: 1.5em;
 }
 
 #menu p {
@@ -33,6 +35,11 @@ html, body {
   border-top: 1px solid #333333;
   border-bottom: 1px solid #333333;
   cursor: pointer;
+}
+
+#description {
+  display: none;
+  padding: 10px;
 }
 
 #options {
