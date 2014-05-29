@@ -1,8 +1,8 @@
 files = []
 files.push 'data/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.json'
 files.push 'data/fs132-005-clemens.json'
-files.push 'data/SZ011.json'
-files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
+#files.push 'data/SZ011.json'
+#files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
 
 class Chapter
   constructor: (@title, @obj) ->
@@ -121,12 +121,12 @@ track_topic = (file) ->
 
   for i in [0..file.chapters.length-2]
     for track in file.tracks
-      t = track if track.percent(file.chapters[i].start(),
-        file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
-          file.chapters[i+1].start())
-    hosts.push
-      'chapter': file.chapters[i].title
-      'master': t.title
+        t = track if track.percent(file.chapters[i].start(),
+          file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
+            file.chapters[i+1].start())
+      hosts.push
+        'chapter': file.chapters[i].title
+        'master': t.title
 
   legendTracks(file.tracks, legend)
   for track in file.tracks
