@@ -14,7 +14,7 @@ buttons = [
   },
   {
     'title': 'Anteile'
-    'desc': 'Anteiler im Gesamtüberblick'
+    'desc': 'Anteile im Gesamtüberblick'
     'method': 'track_topic'
   },
   {
