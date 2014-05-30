@@ -96,6 +96,11 @@ span {
   height: 550px;
 }
 
+#button {
+  padding: 10px;
+  text-align: center;
+}
+
 .query-color {
   border:1px solid #999999;
   float:left;

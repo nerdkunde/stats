@@ -56,7 +56,6 @@ class File
     @chapters = chapters
     @tracks = tracks
 
-
 menu = ->
   for i in [0..files.length-1]
     $.getJSON files[i], (json) ->
