@@ -67,46 +67,64 @@ stats = (url) ->
 
 track_commitments = (file) ->
   labels = []
-  quarter1 = []
-  quarter2 = []
-  quarter3 = []
-  quarter4 = []
+  sixth1 = []
+  sixth2 = []
+  sixth3 = []
+  sixth4 = []
+  sixth5 = []
+  sixth6 = []
 
   for track in file.tracks
     if track.length > 0
       labels.push track.title
-      quarter1.push track.count(0, track.length/4)
+      sixth1.push track.count(0, track.length/6)
 
   for track in file.tracks
     if track.length > 0
-      quarter2.push track.count(track.length/4, track.length/3)
+      sixth2.push track.count(track.length/6, track.length/3)
 
   for track in file.tracks
     if track.length > 0
-      quarter3.push track.count(track.length/3, track.length/2)
+      sixth3.push track.count(track.length/3, track.length/2)
 
   for track in file.tracks
     if track.length > 0
-      quarter4.push track.count(track.length/2, track.length)
+      sixth4.push track.count(track.length/2, 2*track.length/3)
+
+  for track in file.tracks
+    if track.length > 0
+      sixth5.push track.count(2*track.length/3, 5*track.length/6)
+
+  for track in file.tracks
+    if track.length > 0
+      sixth6.push track.count(5*track.length/6, track.length)
 
   data =
     'label': labels
     'values': [
       {
-        'label': '¼'
-        'values': quarter1
-      },
+        'label': '⅙'
+        'values': sixth1
+      }
+      {
+        'label': '⅓'
+        'values': sixth2
+      }
       {
         'label': '½'
-        'values': quarter2
-      },
+        'values': sixth3
+      }
       {
-        'label': '¾'
-        'values': quarter3
-      },
+        'label': '⅔'
+        'values': sixth4
+      }
+      {
+        'label': '⅚'
+        'values': sixth5
+      }
       {
         'label': '1'
-        'values': quarter4
+        'values': sixth6
       }
     ]
 
@@ -131,7 +149,7 @@ track_topic = (file) ->
       'values': values
      ]
 
-  legend = draw_bar(data, 'vertical')
+  legend = draw_bar(data, 'vertical', '%')
 
   for i in [0..file.chapters.length-2]
     for track in file.tracks
@@ -161,10 +179,10 @@ track_chapter = (file) ->
           t = track if track.percent(file.chapters[i].start(),
               file.chapters[i+1].start()) > t.percent(file.chapters[i].start(),
                 file.chapters[i+1].start())
-          v.push track.percent(file.chapters[i].start(), file.chapters[i+1].start())
-        values.push
-          'label': i
-          'values': v
+          v.push track.total(file.chapters[i].start(), file.chapters[i+1].start())
+      values.push
+        'label': i
+        'values': v
 
     for track in file.tracks
       if track.length > 0

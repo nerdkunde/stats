@@ -17,10 +17,21 @@ html, body {
   margin: auto;
 }
 
-td {
+th, td {
+  font-weight: 100;
+  padding: 2px;
   vertical-align: top;
 }
 
+th  {
+  text-align: right;
+
+}
+
+span {
+  color: #000000;
+}
+  
 #top {
   padding: 5px;
 }
@@ -73,14 +84,15 @@ td {
 
 #center-container {
   float: left;
-  width: 700px;
-  background-color: #000000;
+  border: 2px solid #000000;
+  width: 696px;
+  background-color: #222222;
   color: #ffffff;
 }
 
 #infovis {
   position: relative;
-  width: 700px;
+  width: 696px;
   height: 550px;
 }
 

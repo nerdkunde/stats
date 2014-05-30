@@ -8,17 +8,17 @@
 
 buttons = [
   {
-    'title': 'Sprecher nach Kapiteln'
+    'title': 'Aktivität'
     'desc': 'Aktivität nach Kapiteln'
     'method': 'track_chapter'
-  },
+  }
   {
     'title': 'Anteile'
     'desc': 'Anteile im Gesamtüberblick'
     'method': 'track_topic'
-  },
+  }
   {
-    'title': 'Wortmeldungen'
+    'title': 'Meldungen'
     'desc': 'Wortmeldungen/Aktivität über die Zeit'
     'method': 'track_commitments'
   }
@@ -28,7 +28,7 @@ legendChapters = (data) ->
   table = $ '<table></table>'
   for i in [0..data.length-2]
     col = $ '<tr></tr>'
-    col.append $ "<td>#{i}</td>"
+    col.append $ "<th>#{i}</th>"
     col.append $ "<td>#{data[i].title}</td>"
     table.append col
   $('#legend').append $ "<h3>Chapters</h3>"
@@ -64,15 +64,20 @@ draw_chart = (json) ->
       left: 5
       right: 5
       bottom: 5
-    labelOffset: 10
+    labelOffset: 1
     showAggregates: true
     showLabels: true
     type: 'stacked'
-  
+    Tips:
+      enable: true
+      onShow: (tip, elem) ->
+        tip.innerHTML = "<span><b>" + elem.name +
+          "</b>: " + elem.value + "</span>"
+                                 
   areaChart.loadJSON(json)
   areaChart.getLegend()
 
-draw_bar = (json, o = 'horizontal') ->
+draw_bar = (json, o = 'horizontal', s = 'min') ->
   barChart = new $jit.BarChart
     injectInto: 'infovis'
     animate: true
@@ -83,15 +88,22 @@ draw_bar = (json, o = 'horizontal') ->
       left: 5
       right: 5
       bottom: 5
-     Label:
-       type: 'Native'
-       size: 13
-       family: 'Arial'
-       color: 'white'
-    labelOffset: 5
+    labelOffset: 1
     type:'stacked'
     showAggregates: false
     showLabels: true
+    Tips:
+      enable: true
+      onShow: (tip, elem) ->
+        if s == 'min'
+          sec = if elem.value < 60 then ' + ' +
+            Math.round(elem.value) + 'sec</span>'
+          else '</span>'
+          tip.innerHTML = "<span><b>" + elem.name + "</b>: " +
+            Math.round(elem.value/60) + "min" + sec
+        else
+          tip.innerHTML = "<span><b>" + elem.name + ":</b> " +
+            Math.round(elem.value) + "%</span>"
 
   barChart.loadJSON(json)
   barChart.getLegend()
