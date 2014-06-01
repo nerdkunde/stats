@@ -1,11 +1,3 @@
-#typeOfCanvas = typeof HTMLCanvasElement
-#nativeCanvasSupport = (typeOfCanvas == 'object' || typeOfCanvas == 'function')
-#textSupport = nativeCanvasSupport && (typeof document.createElement('canvas').getContext('2d').fillText == 'function')
-#labelType = (!nativeCanvasSupport || (textSupport && !iStuff))? 'Native' : 'HTML'
-#nativeTextSupport = labelType == 'Native'
-#useGradients = nativeCanvasSupport
-#animate = !(iStuff || !nativeCanvasSupport)
-
 buttons = [
   {
     'title': 'Aktivität'
@@ -18,7 +10,7 @@ buttons = [
     'method': 'track_topic'
   }
   {
-    'title': 'Meldungen'
+    'title': 'Zeitstrahl'
     'desc': 'Wortmeldungen/Aktivität über die Zeit'
     'method': 'track_commitments'
   }
@@ -119,6 +111,7 @@ menu_item = (title, url) ->
     $('#description').empty()
 
     file = stats $(this).attr('id')
+    file.ready()
 
     for button in buttons
       item = $ '<button></button>'
@@ -133,7 +126,6 @@ menu_item = (title, url) ->
         $('#description').css('display', 'block')
         $('#description').append $("<p>#{$(this).attr('title')}</p>")
         window[$(this).attr('value')](file)
-     
       $('#options').append item
 
   p = $ '<p></p>'

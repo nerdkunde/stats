@@ -37,22 +37,21 @@ class Track
 
 class File
   constructor: (@url) ->
+  ready: ->
     chapters = []
     tracks = []
-
+  
     $.getJSON @url, (json) ->
-      $.each json['chapters'].sort(fn), (index, value) ->
-        chapters.push new Chapter value['title'], value
-      chapters.push new Chapter 'End',
-        'start_sec': json['length']
+        $.each json['chapters'].sort(fn), (index, value) ->
+          chapters.push new Chapter value['title'], value
+        chapters.push new Chapter 'End', 'start_sec': json['length']
 
-      tracks.push new Track('Empty', [], 0)
-      $.each json['statistics']['tracks'], (index, value) ->
-        if value['activity']
-          tracks.push new Track(value['identifier'],
-            value['activity'],
-            parseFloat(json['multi_input_files'][index]['input_length']))
-
+        tracks.push new Track('Empty', [], 0)
+        $.each json['statistics']['tracks'], (index, value) ->
+          if value['activity']
+            tracks.push new Track(value['identifier'], value['activity'],
+              parseFloat(json['multi_input_files'][index]['input_length']))
+ 
     @chapters = chapters
     @tracks = tracks
 
