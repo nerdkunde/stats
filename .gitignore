@@ -1,0 +1,3 @@
+*.lock
+lib/mkstats.js
+lib/draw.js
