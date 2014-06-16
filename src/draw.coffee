@@ -110,23 +110,26 @@ menu_item = (title, url) ->
     $('#options').empty()
     $('#description').empty()
 
-    file = stats $(this).attr('id')
-    file.ready()
+    $.getJSON $(this).attr('id'), (json) ->
+      file = stats json
 
-    for button in buttons
-      item = $ '<button></button>'
-      item.text(button['title'])
-      item.attr('value', button['method'])
-      item.attr('title', button['desc'])
-      item.click ->
-        $('#infovis').empty()
-        $('#legend').empty()
-        $('#description').empty()
-        $('#container').css('display', 'block')
-        $('#description').css('display', 'block')
-        $('#description').append $("<p>#{$(this).attr('title')}</p>")
-        window[$(this).attr('value')](file)
-      $('#options').append item
+      for button in buttons
+        item = $ '<button></button>'
+        item.text(button['title'])
+        item.attr('value', button['method'])
+        item.attr('title', button['desc'])
+        item.click ->
+          $('#infovis').empty()
+          $('#legend').empty()
+          $('#description').empty()
+          $('#description').append $("<p>#{$(this).attr('title')}</p>")
+          window[$(this).attr('value')](file)
+        $('#options').append item
+
+      window[buttons[0]['method']](file)
+      $('#description').append $("<p>#{buttons[0]['title']}</p>")
+      $('#container').css('display', 'block')
+      $('#description').css('display', 'block')
 
   p = $ '<p></p>'
   p.append link

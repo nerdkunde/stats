@@ -3,6 +3,7 @@ files.push 'data/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.json'
 files.push 'data/fs132-005-clemens.json'
 files.push 'data/SZ011.json'
 files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
+files.push 'data/fs134-not-enough-entertainment-value.json'
 
 topics = {}
 
@@ -36,22 +37,20 @@ class Track
     100*(this.total(start, end)/end)
 
 class File
-  constructor: (@url) ->
-  ready: ->
+  constructor: (json) ->
     chapters = []
     tracks = []
-  
-    $.getJSON @url, (json) ->
-        $.each json['chapters'].sort(fn), (index, value) ->
-          chapters.push new Chapter value['title'], value
-        chapters.push new Chapter 'End', 'start_sec': json['length']
 
-        tracks.push new Track('Empty', [], 0)
-        $.each json['statistics']['tracks'], (index, value) ->
-          if value['activity']
-            tracks.push new Track(value['identifier'], value['activity'],
-              parseFloat(json['multi_input_files'][index]['input_length']))
- 
+    $.each json['chapters'].sort(fn), (index, value) ->
+      chapters.push new Chapter value['title'], value
+    chapters.push new Chapter 'End', 'start_sec': json['length']
+
+    tracks.push new Track('Empty', [], 0)
+    $.each json['statistics']['tracks'], (index, value) ->
+      if value['activity']
+        tracks.push new Track(value['identifier'], value['activity'],
+          parseFloat(json['multi_input_files'][index]['input_length']))
+
     @chapters = chapters
     @tracks = tracks
 
