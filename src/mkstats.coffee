@@ -1,9 +1,8 @@
-files = []
-files.push 'data/fs133-ich-werde-noch-meinen-kindern-davon-erzaehlen.json'
-files.push 'data/fs132-005-clemens.json'
-files.push 'data/SZ011.json'
-files.push 'data/lnp102-nur-wenige-admins-haben-zugriff.json'
-files.push 'data/fs134-not-enough-entertainment-value.json'
+files = [
+    "data/nk029.json",
+    "data/nk030.json",
+    "data/nk031.json"
+]
 
 topics = {}
 
@@ -157,7 +156,7 @@ track_topic = (file) ->
     hosts.push
       'chapter': file.chapters[i].title
       'master': t.title
-    
+
   legendTracks(file.tracks, legend)
   for track in file.tracks
     if track.length > 0
